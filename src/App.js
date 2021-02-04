@@ -8,6 +8,7 @@ import Home from "./components/pages/Home";
 import SignUp from "./components/pages/SignUp";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import MainApp from "./components/App/MainApp";
 
 //style default mui theme
 
@@ -45,6 +46,7 @@ function App() {
             <Route path="/about" exact component={About} />
             <Route path="/sign-up" exact component={SignUp} />
             <Route path="/features" exact component={Features} />
+            <Route path="/app" exact component={MainApp} />
           </Switch>
         </Router>
       </ThemeProvider>
