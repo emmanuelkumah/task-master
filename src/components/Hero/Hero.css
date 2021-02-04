@@ -1,0 +1,29 @@
+.imageSection {
+  position: absolute;
+}
+.imageSection > img {
+  margin-top: 60px;
+  width: 500px;
+}
+@media only screen and (max-width: 600px) {
+  /* if device width is less than or equal to 600px */
+  .imageSection > img {
+    display: none;
+    /* margin-top: 10px;
+    width: 350px;
+    /* position: relative; */
+    /* left: 60px;
+    top: 90px; */
+  }
+}
+
+@media only screen and (max-width: 600px) and( min-width: 960px) {
+  /* if device width is greater than or equal to 600 */
+  .imageSection > img {
+    /* background-color: red; */
+    width: 400px;
+    position: relative;
+    left: 170px;
+    top: 40px;
+  }
+}
