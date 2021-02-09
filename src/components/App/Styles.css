@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: white;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   min-height: 100vh;
 }
 header {
@@ -87,6 +87,7 @@ form button:hover {
 }
 
 .completed {
+  color: #f13e0c;
   text-decoration: line-through;
   opacity: 0.5;
 }
@@ -111,7 +112,7 @@ select {
 }
 select {
   color: #ff6f47;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
   width: 12rem;
 }

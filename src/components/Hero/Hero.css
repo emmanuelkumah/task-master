@@ -9,11 +9,6 @@
   /* if device width is less than or equal to 600px */
   .imageSection > img {
     display: none;
-    /* margin-top: 10px;
-    width: 350px;
-    /* position: relative; */
-    /* left: 60px;
-    top: 90px; */
   }
 }
 
